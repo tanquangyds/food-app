@@ -1,0 +1,228 @@
+/* header */
+header {
+    height: 155px;
+}
+.logo {
+    margin-left: 90px;
+}
+
+.header__nav {
+    margin-left: auto;
+    margin-right: 50px;
+}
+.nav__list {
+    display: flex;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 600;
+}
+
+.nav__item {
+    margin-left: 114px;
+}
+/* backround */
+.showcase {
+    width: 100%;
+    height: 619px;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+}
+.showcase__content {
+    display: block;
+    margin: 0 auto;
+    color: white;
+}
+
+.showcase__subtitle {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 72px;
+}
+
+.showcase__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.showcase__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.showcase__download {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.overview {
+    width: 100%;
+    height: 604px;
+    position: relative;
+}
+
+.overview::after {
+    content: '';
+    position: absolute;
+    width: 884px;
+    height: 2px;
+    background-color: #E4E4E4;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.overview__img--1 {
+    position: absolute;
+    top: -143px;
+    left: 25%;
+}
+.overview__img--2 {
+    position: absolute;
+    top: -27px;
+    left: 50%
+}
+
+.manual {
+    display: flex;
+    flex-direction: column;
+}
+
+.manual__main {
+    display: flex;
+    padding: 80px 0;
+}
+
+.manual__main--3 {
+    padding: 154px 0 0px;
+}
+
+.manual__title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    margin: 73px auto 75px;
+}
+
+.manual__img__link {
+    display: block;
+    margin-left: 270px;
+    border-radius: 40px;
+    box-shadow: 50px 30px 150px rgba(46, 4, 4, 0.15);
+}
+
+.munual__img__link--2 {
+    margin-left: 222px;
+}
+
+.manual__feature {
+    margin-left: 205px;
+}
+
+.manual__feature--2 {
+    margin-left: 250px;
+}
+
+.feature__subtitle {
+    color:var(--primary-color);
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 140px;
+}
+
+.feature__title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    margin-top: 22px;
+}
+
+.feature__detail {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 28px;
+}
+
+/* download app */
+
+.showcase--bottom {
+    width: 100%;
+    height: 512px;
+    background-image: url(../img/background_@.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 168px;
+
+}
+
+.showcase__download__title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.showcase__download__text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.showcase__download__btn {
+    width: 330px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 220px;
+    padding: 0 120px;
+}
+
+.social__link {
+    margin-right: 30px;
+}
+
+.social__link:last-child {
+    margin-right: 0;
+}
+
+.social__img {
+    width: 32px;
+    height: 32px;
+}
+
+.copyright__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 40px;
+}

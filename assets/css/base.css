@@ -1,0 +1,108 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #FA4A0C;
+    --border-color: #dbdbdb;
+    --header-height: 155px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+/* position */
+.align-items-center {
+    align-items: center;
+}
+
+.close {
+    display: none;
+}
+
+/* Sweet Alert Define */
+
+
+/* Animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes growth {
+    from {
+        transform: scale(var(--growth-from));
+    }
+    to {
+        transform: scale(var(--growth-to));
+    }
+}
+
+
+/* Button Style */
+.btn {
+    min-width: 142px;
+    height: 34px;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    color: var(--text-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6rem;
+    background-color: transparent;
+    color: white;
+}
+
+.btn_showcase {
+    width:236px;
+    Height: 68px;
+    border-radius: 999px;
+    padding: 16px 0;
+    margin-left: 100px;
+}
+.btn_showcase:last-child {
+    margin-left: 40px;
+}
+
+.btn.auth-form__control-back:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.btn.btn--primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+
+}
+
+.btn.btn--disable {
+    color: #666;
+    background-color: #888;
+    cursor: default;
+}
+
+.btn.btn--size-s {
+    height: 30px;
+    font-size: 1.2rem;
+    padding: 0 8px;
+}
+
+
